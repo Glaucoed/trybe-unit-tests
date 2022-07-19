@@ -29,8 +29,6 @@ const circle = (radius) => {
     circumference: 2 * PI * radius,
   };
 };
-
 // console.log(Object.entries({ radius: 3, area: 28.259999999999998, circumference: 18.84 });
-  // Teste se dentro do objeto retornado, a função retorna uma `key` com `value` igual à área correta para um círculo de raio 3.
 
 module.exports = circle;
