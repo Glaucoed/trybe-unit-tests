@@ -61,7 +61,6 @@ const getCharacter = (name) => {
 
   const lowered = name.toLowerCase();
 
-
   if (characters[lowered]) {
     return characters[lowered];
   }
@@ -72,6 +71,4 @@ const getCharacter = (name) => {
 // console.log(x);
 // console.log(getCharacter('AryBrienneMelissandre'));
 // console.log(getCharacter('arya'));
-
-
 module.exports = getCharacter;
