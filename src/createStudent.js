@@ -23,6 +23,8 @@ const createStudent = (name) => {
     feedback: () => 'Eita pessoa boa!',
   };
   return estudante;
+  // return estudante.feedback();
+  // return estudante.name;
 };
-
+// console.log(createStudent('test'));
 module.exports = createStudent;

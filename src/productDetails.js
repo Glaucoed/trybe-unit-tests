@@ -40,6 +40,16 @@ const productDetails = (firstProduct, secondProduct) => [
       productId: `${secondProduct}123`,
     },
   },
-];
+];  
+// console.log(Object.values(productDetails('x', 'x'))[1].details.productId);
 
+// console.log(Object.values(productDetails('y', 'x'))[0]);
+// console.log(Object.values(productDetails('y', 'x'))[0].name);
+// console.log(Object.values(productDetails('y', 'x'))[1].name);
+// const x = Object.values(productDetails('y', 'x'))[0].name;
+// const y = Object.values(productDetails('y', 'x'))[1].name;
+// console.log(x !== y)
+// console.log(Object.keys(productDetails('x','y')[1].name[0]))
+// console.log(Object.values(productDetails('x', 'x'))[1].name !== Object.values(productDetails('x', 'x'))[0].name)
+// console.log(Object.entries(productDetails('y', 'x'))[0].name !== Object.value(productDetails('y', 'x'))[1].name);
 module.exports = productDetails;
