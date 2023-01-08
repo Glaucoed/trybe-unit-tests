@@ -1,4 +1,4 @@
-## **`Projeto Pixels Art`** ##
+## **`Projeto Unit tests`** ##
 
 ## O desenvolvimento
 
